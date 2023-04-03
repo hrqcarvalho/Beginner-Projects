@@ -9,3 +9,5 @@ The funny part is as you progress through the course the projects will become mo
 ## The list of projects here:
 - Band Name Generator
     - A program that takes the city you grew up in and your pet's name and return a name for your band.
+- Tip Calculator
+    - A program that takes a value, tip's percentage and a number of people and return the splitted bill.
