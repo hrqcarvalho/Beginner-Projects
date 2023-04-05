@@ -31,22 +31,19 @@ print("Your mission is to find the treasure.\n")
 print("You are in a island looking for a treasure, feeling like Indiana Jones and then you\
  reach your first challenge:")
 print("You are on a narrow bridge and a huge round rock comes in your direction.")
-rock_challenge = input(
-    "You have to dodge it, which side do you choose? ['Left' or 'Right']? ").lower()
+rock_challenge = input("You have to dodge it, which side do you choose? ['Left' or 'Right']? ").lower()
 
 if rock_challenge == 'left':
     print("\nYou dodge it to the left, fall but hold on to a vine.")
     print("Under you there is a river full of crocodiles.")
 
-    river_challenge = input(
-        "What do you do now? Keep holding or swim? ['Swim' or 'Hold']? ").lower()
+    river_challenge = input("What do you do now? Keep holding or swim? ['Swim' or 'Hold']? ").lower()
 
     if river_challenge == 'hold':
         print("\nYou keep holding and then you see an entry of a cave in a mountain.")
         print("You get all 'Tarzan' and manage to get there safely.")
 
-        door_challenge = input(
-            "Inside the cave you see three doors, which one do you open? ['Red', 'Yellow' or 'Blue']? ").lower()
+        door_challenge = input("Inside the cave you see three doors, which one do you open? ['Red', 'Yellow' or 'Blue']? ").lower()
 
         if door_challenge == "yellow":
             print("\nSomehow you did it! You found the Legendary Ancient Treasure!")
