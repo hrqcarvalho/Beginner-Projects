@@ -13,3 +13,6 @@ The funny part is as you progress through the course the projects will become mo
     - A program that takes a value, tip's percentage and a number of people and return the splitted bill.
 - Treasure Island
     - A program that tells a short story (the point here is to test the knowledge about if-else statements).
+- Rock Paper Scissors
+    - A program that takes three possible inputs (0, 1 or 2) and simulate a rock paper scissors
+    game.
