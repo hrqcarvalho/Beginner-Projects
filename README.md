@@ -16,3 +16,5 @@ The funny part is as you progress through the course the projects will become mo
 - Rock Paper Scissors
     - A program that takes three possible inputs (0, 1 or 2) and simulate a rock paper scissors
     game.
+- Password Generator
+    - A program that takes what do you want in your password (how many letters, numbers and symbols) and make a "random" password out of it.
