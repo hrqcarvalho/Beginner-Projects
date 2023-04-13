@@ -19,5 +19,5 @@ The funny part is as you progress through the course the projects will become mo
 - Password Generator
     - A program that takes what do you want in your password (how many letters, numbers and symbols) and make a "random" password out of it.
 - Escape the Maze
-    - This project is a little different because this time I need to go to a website to code
+    - This project is a little different because this time I need to go to a [website](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json) to code
     a script which will be used to help a bot to escape a maze.
