@@ -18,3 +18,6 @@ The funny part is as you progress through the course the projects will become mo
     game.
 - Password Generator
     - A program that takes what do you want in your password (how many letters, numbers and symbols) and make a "random" password out of it.
+- Escape the Maze
+    - This project is a little different because this time I need to go to a website to code
+    a script which will be used to help a bot to escape a maze.
