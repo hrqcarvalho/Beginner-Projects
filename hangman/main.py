@@ -4,11 +4,7 @@ the dr. made in order to guide us through this challenge.
 """
 from random import choice
 from hangman_art import *
-from hangman_words import word_list as wl
-
-# TODO-x: - Update the word list to use the 'word_list' from hangman_words.py
-# word_list = ["dragonborn", "kenway", "luffy"]
-word_list = wl
+from hangman_words import word_list
 
 #TODO-0: - Create a variable called 'lives' to keep track of the number of lives left. 
 #Set 'lives' to equal 6.
