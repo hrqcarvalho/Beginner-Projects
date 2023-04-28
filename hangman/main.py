@@ -19,17 +19,23 @@ for _ in chosen_word:
 print(f'Pssst, the solution is {chosen_word}.')
 
 #TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
-guess = input("Guess a letter: ").lower()
+#TODO-2.1: - Use a while loop to let the user guess again. The loop should only stop once the user has guessed all the letters 
+# in the chosen_word and 'display' has no more blanks ("_"). Then you can tell the user they've won.
+while '_' in display:
+    guess = input("Guess a letter: ").lower()
 
-#TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
-#TODO-3.1: - Loop through each position in the chosen_word;
-#If the letter at that position matches 'guess' then reveal that letter in the display at that position.
-#e.g. If the user guessed "p" and the chosen word was "apple", then display should be ["_", "p", "p", "_", "_"].
-index = -1
-for each_letter in chosen_word:
-    index += 1
-    if guess == each_letter:
-        display[index] = guess
+    #TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
+    #TODO-3.1: - Loop through each position in the chosen_word;
+    #If the letter at that position matches 'guess' then reveal that letter in the display at that position.
+    #e.g. If the user guessed "p" and the chosen word was "apple", then display should be ["_", "p", "p", "_", "_"].
+    index = -1
+    for each_letter in chosen_word:
+        index += 1
+        if guess == each_letter:
+            display[index] = guess
 
-#TODO-4: - Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_".
-print(display)
+    #TODO-4: - Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_".
+    print(display)
+
+else:
+    print("You win!")
