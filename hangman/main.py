@@ -12,7 +12,7 @@ chosen_word = choice(word_list)
 display = []
 #For each letter in the chosen_word, add a "_" to 'display'.
 #So if the chosen_word was "apple", display should be ["_", "_", "_", "_", "_"] with 5 "_" representing each letter to guess.
-for each_letter in chosen_word:
+for _ in chosen_word:
     display.append("_")
 
 #Testing code
