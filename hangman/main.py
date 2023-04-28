@@ -26,7 +26,7 @@ for _ in chosen_word:
     display.append("_")
 
 #Testing code
-print(f'Pssst, the solution is {chosen_word}.')
+# print(f'Pssst, the solution is {chosen_word}.')
 
 #TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
 #TODO-2.1: - Use a while loop to let the user guess again. The loop should only stop once the user has guessed all the letters 
