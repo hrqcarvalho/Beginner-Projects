@@ -1,6 +1,9 @@
 """
 First of all, I apologize for this being such a messy, but i thought it would be coller if i let all the comments
 the dr. made in order to guide us through this challenge.
+
+This program it's a digital version of the famous game "Hangman", so you know the rules, guess a letter if you got it
+ right fill a blank otherwise you lose a life
 """
 from random import choice
 from hangman_art import *

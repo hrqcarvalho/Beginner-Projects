@@ -14,10 +14,10 @@ The funny part is as you progress through the course the projects will become mo
 - Treasure Island
     - A program that tells a short story (the point here is to test the knowledge about if-else statements).
 - Rock Paper Scissors
-    - A program that takes three possible inputs (0, 1 or 2) and simulate a rock paper scissors
-    game.
+    - A program that takes three possible inputs (0, 1 or 2) and simulate a rock paper scissors game.
 - Password Generator
     - A program that takes what do you want in your password (how many letters, numbers and symbols) and make a "random" password out of it.
 - Escape the Maze
-    - This project is a little different because this time I need to go to a [website](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json) to code
-    a script which will be used to help a bot to escape a maze.
+    - This project is a little different because this time I need to go to a [website](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json) to code a script which will be used to help a bot to escape a maze.
+- Hangman
+    - This program it's a digital version of the famous game "Hangman", so you know the rules, guess a letter if you got it right fill a blank otherwise you lose a life.
